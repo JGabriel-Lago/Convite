@@ -6,8 +6,8 @@
 }
 
 body {
-    overflow-x: hidden;
-    overflow-y: auto; /* Permite rolagem se necessário */
+    overflow: hidden;
+
 }
 
 .conteiner {
@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    background: linear-gradient(to top, #4A235A 5%, rgba(0, 0, 0, 0) 50%), 
+    background: linear-gradient(to top, #4A235A 10%, rgba(0, 0, 0, 0) 70%), 
                 url("./imgs/capa.jpeg") no-repeat center/cover;
 }
 
@@ -43,6 +43,7 @@ body {
     text-align: center;
     margin-top: auto;
     width: 100%;
+    margin-bottom: 40px;
     
     /* animação */
     animation: fadeInUp 1.2s ease forwards;
