@@ -6,7 +6,8 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto; /* Permite rolagem se necessário */
 }
 
 .conteiner {
