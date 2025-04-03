@@ -5,7 +5,6 @@
     font-family: "Montserrat", sans-serif;
 }
 
-
 body {
     overflow: hidden;
 }
@@ -22,12 +21,41 @@ body {
                 url("./imgs/capa.jpeg") no-repeat center/cover;
 }
 
+/* Animação */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.parte-baixo-glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    
+    /* animação */
+    animation: fadeInUp 1.2s ease forwards;
+}
+
 h1{
     text-align: center;
     font-family: "Meow Script", cursive;
     color: rgb(255, 255, 255);
     font-size: 50px;
     margin-top: 20px;
+
+    /* animação */
+    animation: fadeInUp 1s ease forwards;
 }
 
 h2{

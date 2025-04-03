@@ -1,60 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME | GabLav</title>
+    <title>Convite GabLav</title>
     <link rel="stylesheet" href="styleHome.css">
-        <!-- googlee -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital
-        ,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,
-        500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
-    <!-- google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Meow+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="principal">
-        <h1>21 anos</h1>
-        <div class="countdown" id="countdown">Carregando...</div>
-    </section>
 
-    <section class="descricao">
-        <h2>Sobre o aniversário</h2>
-        <p>Sim, é isso mesmo! Nós, Lavígnia e Gabriel, fazemos aniversário no mesmo dia! E para comemorar, vamos nos 
-            reunir para comer, beber e curtir no Boteco do Camarão. Esperamos vocês para celebrar com a gente!
-        </p>
-    </section>
-
-    <section class="localizacao">
- 
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15595.940486024054!2d-38.95581435115491!3d-12.
-            249285958056214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x714379d0714588f%3A0xf01c1067163bcacf!2sBoteco
-            %20do%20Camar%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1743642774533!5m2!1spt-BR!2sbr" 
-            width="600" height="450" style="border:0;" 
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <header class="hero">
+        <div class="content">
+            <h1>21 anos</h1>
+            <p>Uma noite especial está por vir...</p>
+            <div class="countdown" id="countdown">Carregando...</div>
+            <a href="#detalhes" class="btn">Descubra Mais</a>
         </div>
+    </header>
 
-    </section>
+    <main>
+        <section id="detalhes" class="descricao">
+            <h2>Sobre a comemoração</h2>
+            <p>Sim, é isso mesmo! Lavígnia e Gabriel fazem aniversário no mesmo dia! Para celebrar, vamos nos reunir para um momento inesquecível no Boteco do Camarão.</p>
+        </section>
 
-    <section class="data">
-        <h3>Nossa comemoração será dia 25/04/2025, às 20h, Vamos celebrar juntos, cada um por sua conta. Esperamos vocês!</h3>
-    </section>
+        <section class="localizacao">
+            <h2>Onde vai ser?</h2>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15595.940486024054!2d-38.95581435115491!3d-12.249285958056214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x714379d0714588f%3A0xf01c1067163bcacf!2sBoteco%20do%20Camar%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1743642774533!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
 
-    <section class="presenca">
-        <div>
-            <a href="https://api.whatsapp.com/send?phone=5575981509474&text=Quero%20confirmar%20minha%20presen%C3%A7a!"><button class="btn">Confirmar presença!</button></a>
-        </div>
-        <div class="voltar">
-            <a href="index.html">Voltar</a>
-        </div>
+        <section class="data">
+            <h3>Dia 25/04/2025, às 20h - Cada um por sua conta, mas todos juntos na diversão!</h3>
+        </section>
 
-    </section>
-
+        <section class="presenca">
+            <a href="https://api.whatsapp.com/send?phone=5575981509474&text=Quero%20confirmar%20minha%20presen%C3%A7a!" class="btn">Confirmar Presença</a>
+            <a href="index.html" class="voltar">Voltar</a>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
